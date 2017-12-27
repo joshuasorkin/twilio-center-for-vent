@@ -83,7 +83,7 @@ module.exports.selectTeam = function (req, res) {
 			timeout: 5
 		})
 
-		gather.say('Press a key if you want a callback from ' + team.friendlyName + ', or stay on the line')
+		gather.say('Press a key if you want a vulnerable callback from ' + team.friendlyName + ', or stay on the line')
 
 		/* create task attributes */
 		const attributes = {
